@@ -27,3 +27,67 @@
 .btn-xl {
   padding: 15px 30px;
 }
+
+.bg-dark {
+  background-color: $theme-primary !important; 
+}
+
+header.masthead {
+  background-color: $theme-primary !important; 
+}
+
+a {
+  color: #385775;
+ }
+  a:focus, a:hover {
+    color: #385775; }
+
+  #mainNav .navbar-brand {
+    color: #ecf0f1; /*#696969*/;
+  }
+    
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #385775; }
+  #mainNav .navbar-toggle {
+    color: #385775; }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    color: #385775; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+      color: #385775; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #385775 !important;
+    }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      }
+  @media (min-width: 992px) {
+    #mainNav {
+      border-color: rgba(25, 52, 79, 0.3);
+      }
+      #mainNav .navbar-brand {
+        color: rgba(25, 52, 79, 0.7); }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: #385775; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: rgba(25, 52, 79, 0.7); }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: #385775; }
+      #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, 0.05);
+        background-color: white; }
+        #mainNav.navbar-shrink .navbar-brand {
+          font-size: 16px;
+          color: #385775; }
+          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+            color: #385775; }
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: #385775; }
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #385775; } }
