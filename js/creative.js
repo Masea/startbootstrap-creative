@@ -53,19 +53,48 @@
   }, 300);
 
   // Magnific popup calls
-  $('.popup-gallery').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
+  // $('.popup-gallery').magnificPopup({
+
+  // type: 'iframe'
+  // delegate: 'a'
+  
+  // iframe: {
+  //   patterns: {
+  //     dailymotion: {
+       
+  //       index: 'http://',
+        
+  //       url: function(url) {        
+  // //           // var m = url.match(/^.+/);
+  // //           // if (m !== null) {
+  // //           //     if(m[4] !== undefined) {
+                  
+  // //           //         return m[4];
+  // //           //     }
+  // //           //     return m[2];
+  // //           // }
+  // //           return url;
+  //       },
+        
+  //       src: '%url%'
+        
+  //     }
+  //   }
+  // }
+
+
+    // delegate: 'a',
+    // type: 'image',
+    // tLoading: 'Loading image #%curr%...',
+    // mainClass: 'mfp-img-mobile',
+    // gallery: {
+    //   enabled: true,
+    //   navigateByImgClick: true,
+    //   preload: [0, 1]
+    // },
+    // image: {
+    //   tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    // }
+  // });
 
 })(jQuery); // End of use strict
